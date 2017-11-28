@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+// 
+// This is the place for your statements. The maximum 
+// number of statements is theoretically unlimited, but
+// less then 50 statements are advisable.
+// If your are using German Umlauts and other special 
+// characters, make sure, that you save this XML-file 
+// as an UTF-8-document. White-space inbetween the 
+// nodes are ignored. Any white-space within the text-
+// nodes, including leading or trailing whitespace and 
+// line breaks, is preserved.
+//
+// EXAMPLE
+// Let's define some statements concerning FlashQ:
+// Statement 1: FlashQ is very usefull.
+// Statement 2: I prefer offline surveys.
+// Statement 3: FlashQ is too complicated to configure.
+//
+// Each statement requires a seperate statement-node 
+// consisting out of an opening and a closing tag. The 
+// statement itself goes between this two tags. 
+// The unique statement id is saved as an 
+// attribute called 'id'. We have three exmaple 
+// statements and we need therefore three statement-
+// nodes and one parent-node. 
+//
+// <statements version="1.0" htmlparse="false">
+//   <statement id="1">FlashQ is very usefull.</statement>
+//   <statement id="2">I prefer offline surveys.</statement>
+//   <statement id="3">FlashQ is too complicated to configure</statement>
+// </statements>
+// 
+// ===================================================
+// 
+-->
+
+<statements version="1.0" htmlParse="false">
+  <statement id="1">Solange in der EU höhere Umwelt- und Sozialstandards gelten als außerhalb, sollte die Agrarpolitik die europäischen Landwirte dafür angemessen kompensieren.</statement>
+  <statement id="2">Zur Sicherstellung eines fairen internationalen Wettbewerbs sollte die Agrarpolitik einen qualifizierten Außenschutz durch Marktintervention beinhalten.</statement>
+  <statement id="3">Die europäische Landwirtschaft sollte ihre „Exportfixierung“ überwinden und nur noch so viel produzieren, wie auch im Land konsumiert wird.</statement>
+  <statement id="4">Freier, internationaler Agrarhandel leistet einen unverzichtbaren Beitrag zur globalen Ernährungssicherung und bringt Nutzen für die Menschen in Import- und Exportländern.</statement>
+  <statement id="5">Die Agrarpolitik sollte den eingeschlagenen Kurs der Marktorientierung fortsetzen und vertiefen.</statement>
+  <statement id="6">Die Agrarpolitik sollte Projekte in Entwicklungsländern unterstützen, um die Ursachen von Flucht und Migration zu bekämpfen.</statement>
+  <statement id="7">Die bestehenden Direktzahlungen sollten fortgeführt werden, um die wirtschaftliche Existenz möglichst vieler landwirtschaftlicher Betriebe zu sichern.</statement>
+  <statement id="8">Kein Betrieb sollte in Zukunft mehr als 100.000€ an Direktzahlungen pro Jahr erhalten.</statement>
+  <statement id="9">Die Agrarpolitik sollte kleine und bäuerliche Betriebe stärker fördern, um damit ihr Engagement für Nachhaltigkeit und Tierwohl zu honorieren</statement>
+  <statement id="10">Die Agrarpolitik muss die Rahmenbedingungen so setzen, dass Landwirte wieder selbstbestimmt und sachkundig ihrer Arbeit nachgehen können.</statement>
+  <statement id="11">Die Agrarpolitik muss die Weichen dafür stellen, dass eine Zukunft in der Landwirtschaft für junge Menschen attraktiv ist.</statement>
+  <statement id="12">Die Agrarpolitik sollte Ausstiegsoptionen (z.B. Betriebsaufgaben) fördern, um den Strukturwandel zu beschleunigen.</statement>
+  <statement id="13">Wenn die gesellschaftliche Akzeptanz der GAP langfristig erhalten werden soll, müssen die Agrarzahlungen in Zukunft stärker an Gemeinwohlinteressen ausgerichtet werden.</statement>
+  <statement id="14">Wenn nach 2020 noch höhere gesellschaftliche Erwartungen an die Landwirtschaft gestellt werden, geht das nicht mit weniger, sondern nur mit mehr Geld im Agrarhaushalt. </statement>
+  <statement id="15">Künftig sollten nur noch extensive Grünlandbewirtschaftung, ertragsschwache Standorte und Flächen des Öko-Landbaus Direktzahlungen erhalten.</statement>
+  <statement id="16">Die Agrarpolitik sollte standortangepasste Produktionssysteme fördern statt die Gegensätze zwischen ökologischer und konventioneller Landwirtschaft zu befeuern. </statement>
+  <statement id="17">Eine nachgewiesene Befähigung zum Halten von Tieren und regelmäßige Fortbildungen sollten zum Standard werden.</statement>
+  <statement id="18">Landwirte sollten ihre Produktionssysteme nicht bis an die Grenzen des Machbaren ausreizen, insbesondere dann, wenn es aus gesellschaftlicher Sicht zweifelhaft erscheint.</statement>
+  <statement id="19">Die Agrarpolitik nach 2020 muss spürbar entbürokratisiert und vereinfacht werden.</statement>
+  <statement id="20">Dokumentationen und Kontrollen sollten durch Satellitentechnik unterstützt werden, um Bürokratie abzubauen und Vor-Ort-Kontrollen zu reduzieren.</statement>
+  <statement id="21">Unüberblickbare Vorgaben und Auflagen müssen entrümpelt werden, da sie die Existenz der Landwirte bedrohen.</statement>
+  <statement id="22">Die Investitionsförderung sollte langfristig in eine Innovationsförderung überführt werden, die die Einführung neuer Technologien gezielt fördert.</statement>
+  <statement id="23">Eine Ökologisierung der Landwirtschaft sollte durch eine breitere Anwendung präzisionslandwirtschaftlicher Techniken sichergestellt werden.</statement>
+  <statement id="24">Die Politik sollte sich bei der Zulassung von Pflanzenschutzmitteln stärker auf die Einschätzung unabhängiger Experten, statt auf die öffentliche Meinung, stützen.</statement>
+  <statement id="25">Die Verhandlungsposition der Landwirte in der Wertschöpfungskette sollte gestärkt werden, indem unfaire Handelspraktiken verboten werden.</statement> 
+  <statement id="26">Verarbeiter und Lebensmitteleinzelhandel sollten stärker Verantwortung für faire Preise übernehmen.</statement>
+  <statement id="27">Regionale Kreisläufe müssen gezielt gefördert werden, um lange Transportwege zu vermeiden.</statement>
+  <statement id="28">Anstatt internationale Wettbewerbsfähigkeit und Export zu fördern, sollte die Agrarpolitik die regionale Erzeugung und Vermarktung hochwertiger Lebensmittel unterstützen.</statement>
+  <statement id="29">Mitgliedsstaaten sollten aus Mitteln der ländlichen Entwicklungspolitik den Breitbandausbau auf dem Land vorantreiben.</statement>
+  <statement id="30">Mitgliedsstaaten sollten aus Mitteln der ländlichen Entwicklungspolitik die Integration von Flüchtlingen in den Arbeitsmarkt fördern.</statement>
+  <statement id="31">Um die Risiken volatiler Märkte zu meistern, sollte die Agrarpolitik ein marktpolitisches Sicherheitsnetz (mit niedrigen Stützpreisen) bereithalten.</statement>
+  <statement id="32">Die Agrarpolitik sollte betriebliche Risikovorsorge fördern, indem sie die Versicherungsprämien für Ertragsversicherungen subventioniert.</statement>
+  <statement id="33">Die Agrarpolitik sollte Anreize für betriebliches Risikomanagement schaffen, indem sie eine steuerbegünstigte Risikoausgleichsrücklage für Betriebe einführt.</statement>
+  <statement id="34">Die Landwirte sollten zwischen „normalen“ und „atmenden“ Direktzahlungen wählen können: Atmende Direktzahlungen = hoch in schlechten Jahren und niedrig in guten Jahren.</statement>
+  <statement id="35">Die Politik sollte es den Erzeugerorganisationen ermöglichen, das Marktangebot in Krisenzeiten durch privatwirtschaftliche Absprachen zu verknappen.</statement>
+  <statement id="36">Betriebliches Risikomanagement ist eine rein unternehmerische Aufgabe. Die Politik sollte sich da komplett heraushalten.</statement>
+</statements>
+
+
+
+
+
+
+
