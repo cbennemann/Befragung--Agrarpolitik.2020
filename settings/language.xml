@@ -92,7 +92,7 @@
   <item id="transferHead">Vielen Dank für Ihre Teilnahme!</item>
   <item id="transferText">Sie haben die Befragung erfolgreich abgeschlossen. Bitte übermitteln Sie Ihre Daten</item>
   <item id="transferFailed">Datentransfer fehlgeschlagen. Bitte versuchen Sie es erneut.</item>
-  <item id="transferOK">Bei Rückfragen oder Anregungen melden Sie sich bitte bei:{br}{br}Constantin Bennemann - c.bennemann@gmx.net{br}{br}Sie können das Browserfenster jetzt schließen.</item>
+  <item id="transferOk">Bei Rückfragen oder Anregungen melden Sie sich bitte bei:{br}{br}Constantin Bennemann - c.bennemann@gmx.net{br}{br}Sie können das Browserfenster jetzt schließen.</item>
 
   <!-- send data via mail, only displayed if submitUrl is blank (see config-file) -->
   <item id="mailHead">Submit Data</item>
