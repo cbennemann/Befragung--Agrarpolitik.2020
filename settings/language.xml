@@ -27,7 +27,7 @@
   <!-- misc -->
   <item id="btnContinue">weiter...</item>
   <item id="btnclose">Schließen</item>
-  <item id="btnHelp">Begriffserklärung</item>
+  <item id="btnHelp">Hilfe?</item>
   <item id="btnAgreement">Entspricht meiner Meinung</item>
   <item id="btnNeutral">Neutral</item>
   <item id="btnDisagreement">Widerspricht meiner Meinung</item>
