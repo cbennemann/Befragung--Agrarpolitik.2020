@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+//
+// ===================================================
+// FlashQ by Christian Hackert and Gernot Braehler
+// ===================================================
+// Configuration file.
+// @author		Christian Hackert <www.hackert.biz/flashq>
+// @version		FlashQ version 1.0
+// ===================================================
+//
+-->
+
+<config version="1.0" htmlParse="false">
+    
+
+  <!-- title of the study -->
+  <item id="studyTitle">Agrarpolitik 2020</item>
+
+  <!-- text-align property(left|right) -->
+  <item id="textAlign">left</item>
+
+  <!-- shuffle cards (true|false)  -->
+  <item id="shuffleCards">true</item>
+
+  <!-- login required (true|false) -->
+  <item id="loginrequired">false</item>
+  <!-- login with common password (leave blank if not required) -->
+  <item id="loginPassword"></item>
+  <!-- URL to individual login script(leave blank if not required) -->
+  <item id="loginUrl"></item>
+  <!-- request mode (post|get) -->
+  <item id="loginUrlMethod"></item>
+
+  <!-- activate/deactivate optional steps (true|false) -->
+  <item id="showStep3">true</item>
+  <item id="showStep4">true</item>
+  <item id="showStep5">true</item>
+
+  <!-- HtmlQ only: disable the in-window back button -->
+  <item id="disableBackButton">true</item>
+
+  <!-- define form elements for step5; only displayed if showStep5 is true (delete tags if not required) -->
+  <!-- add label: <label>[STRING]</label> -->
+  <!-- add note: <note>[STRING]</note> -->
+  <!-- add input-field: <input type="[text|textarea|radio|select|checkbox|rating2|rating5|rating10]">[VALUE]</input> -->
+  <!-- optional attributes: bg, id, maxlength, restricted, required, scale, value  -->
+  <item id="form">
+    <label>Alter</label>
+	<note>In welchem Jahr sind Sie geboren?(YYYY, z.B.: 1980).</note>
+	<input type="text" required="true" maxlength="4" restricted="0-9"></input>
+ 
+   <label>Postleitzahl</label>
+	<note>Für die Zuordnung Ihrer Region geben Sie bitte Ihre Postleitzahl an.</note>
+	<input type="text" required="true" maxlength="5" minlength="5" restricted="0-9"></input>
+
+    <label>Geschlecht</label>
+	<note>Bitte geben Sie Ihr Geschlecht an.</note>
+	<input type="radio" required="true">weiblich;männlich</input>
+
+    <label>Geschlecht</label>
+	<note>Bitte geben Sie Ihren höchsten Bildungsstand an.</note>
+	<input type="radio" required="true">keinen Abschluss;Schulabschluss;Berufsausbildung;fachl. Weiterbildung;Studium;Sonstiges</input>
+
+    <label>Beantworten Sie bitte folgende Fragen:</label>
+    <input type="rating2" required="false" scale="Ja;Nein;" value="Ja;Nein;">Ich habe einen Bezug zur Landwirtschaft;Ich bin zufrieden mit der Agrarpolitik;Ich kaufe Lebensmittel bewusst ein</input>
+	
+    <label>In welcher Branche sind Sie tätig?</label>
+	<input type="checkbox" required="true">Landwirtschaft;Industrie;Dienstleistung u. Gewerbe;Handwerk;öffentlicher Dienst;keine Aussage</input>
+
+    <label>Wie wuerden Sie Ihr Lebensumfeld beschreiben?</label>
+	<input type="select" required="true">Großstadt;Kleinstadt;Dorf;ländlich;keine Angabe</input>
+
+    <label>Kommentare</label>
+	<input type="textarea" required="false"></input>
+
+    <note bg="false">.</note>
+  </item>
+
+  <!-- URL for data transmission via POST/GET (leave blank if not required) -->
+  <item id="submitUrl">https://agrarpolitik2020.firebaseio.com</item>
+  <!-- request mode (post|get) -->
+  <item id="submitUrlMethod">https://agrarpolitik2020.firebaseio.com</item>
+
+  <!-- data transmission via email, user must have an e-mail programm like Outlook (leave blank if not required) -->
+  <item id="submitMail">yourdomain.com</item>
+ </config>
