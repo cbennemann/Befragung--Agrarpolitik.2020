@@ -96,7 +96,7 @@
 
   <!-- step4: comments on best/worst rated statements, only displayed if showStep4== true (see config-file; leave blank to skip popup) -->
   <item id="step4Head">Schritt 4 von 5</item>
-  <item id="step4Text">Bitte erklären Sie kurz in Stichworten warum Sie folgenden Aussagen bei besonderer Zustimmung "+4" oder besonderer Ablehnung "-4" platziert haben.</item>
+  <item id="step4Text">Bitte erklären Sie kurz in Stichworten warum Sie folgenden Aussagen bei besonderer Zustimmung "+4" oder besonderer Ablehnung "-4" platziert haben.{br}Bitte füllen Sie ALLE Felder aus.</item>
 
   <!-- step5: dditional questions, only displayed if showStep5== true (see config-file; leave blank to skip popup)-->
   <item id="step5Head">Schritt 5 von 5</item>
