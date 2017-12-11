@@ -63,6 +63,7 @@
 
   <!-- Glossar (leave blank to skip popup) -->
 <item id="introHead">Begriffserklärung</item>
+	<item id="introText">moinsenEinige Begriffe der Umfrage haben wir für Ihr besseres Verständnis erklärt.{br}{br}
 	{b}Außenschutz{/b} = Ein Außenschutz wird durch Zölle und Exportsubventionen erreicht.{br}{br}
 	{b}Ausstiegsoptionen{/b} = Förderung der Betriebsaufgabe, Verpachtung oder Ähnlichem.{br}{br}
 	{b}Direktzahlungen{/b} = Dies sind Einkommensbeihilfen, die ein Landwirt pro Hektar und Jahr erhält.{br}{br}
