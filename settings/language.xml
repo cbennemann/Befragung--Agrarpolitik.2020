@@ -88,7 +88,7 @@
 			Bei Bedarf gelangen Sie mit dem Button unten rechts erneut zur Begriffserklärung! </item>
   <!-- step2: sorting (leave blank to skip popup) -->
   <item id="step2Head">Schritt 2 von 5</item>
-  <item id="step2Text">Lesen Sie die Aussagen im Bereich Zustimmung erneut. Sie können mit der Maus scrollen, um alle Aussagen zu lesen. Belegen Sie nun die Spalten "+4", "+3" und "+2" mit Aussagen. Ziehen Sie dazu die Aussagen aus den unteren Kästen in das Gitternetz. Die Spalte "+4" entspricht der größten Zustimmung.{br}{br}Anschließend belegen Sie die Spalten "-4", "-3" und "-2" mit Aussagen denen Sie widersprechen.{br}{br}Jetzt belegen Sie zunächst die Spalte "+1", dann die Spalte "-1" und abschließend aus dem Bereich Neutral die Spalte "0".{br}{br}Es kann passieren, dass Sie Aussagen aus der Vorsortierung in andere Bereiche sortieren müssen.</item>
+  <item id="step2Text">Lesen Sie die Aussagen im Bereich Zustimmung erneut. Sie können mit der Maus scrollen, um alle Aussagen zu lesen. Belegen Sie nun die Spalten "+4", "+3" und "+2" mit Aussagen. Ziehen Sie dazu die Aussagen aus den unteren Kästen in das Gitternetz. Die Spalte "+4" entspricht der größten Zustimmung.{br}{br}Anschließend belegen Sie die Spalten "-4", "-3" und "-2" mit Aussagen denen Sie widersprechen.{br}{br}Danach belegen Sie zunächst die Spalte "+1", dann die Spalte "-1" und abschließend aus dem Bereich Neutral die Spalte "0".{br}{br}Es kann passieren, dass Sie Aussagen aus der Vorsortierung in andere Bereiche sortieren müssen.</item>
 
 
   <!-- step3: check sorting, only displayed if showStep3== true (see config-file; leave blank to skip popup)-->
