@@ -63,7 +63,7 @@
 
  <!-- Glossar (leave blank to skip popup) -->
   <item id="introHead">Begriffserklärung</item>
-  <item id="introText">Einige Begriffe der Umfrage haben wir für Ihr besseres Verständnis erklärt.{br}{br}
+  <item id="introText">
 	{b}Außenschutz{/b} = Ein Außenschutz wird durch Zölle und Exportsubventionen erreicht.{br}{br}
 	{b}Ausstiegsoptionen{/b} = Förderung der Betriebsaufgabe, Verpachtung oder Ähnlichem.{br}{br}
 	{b}Direktzahlungen{/b} = Dies sind Einkommensbeihilfen, die ein Landwirt pro Hektar und Jahr erhält.{br}{br}
@@ -80,7 +80,7 @@
 	{b}Vor-Ort-Kontrolle{/b} = Die Höfe der Landwirte werden regelmäßig von Behördenkontrolliert.{br}{br}
 	{b}Wertschöpfungskette{/b} = Von der Urproduktion von Agrarrohstoffen über deren Verarbeitung bis zur Ladentheke.{br}{br}
 	
-	Bitte nutzen Sie das Vollbild um an der Studie teilzunehmen.</item>
+	</item>
 
   <!-- step1: rough sorting into three piles (leave blank to skip popup)-->
   <item id="step1Head">Schritt 1 von 5</item>
