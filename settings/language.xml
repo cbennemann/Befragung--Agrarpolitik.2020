@@ -62,8 +62,7 @@
   <item id="loginNoConnection">Connection to server failed. Please try again.</item>
 
   <!-- Glossar (leave blank to skip popup) -->
-  <item id="introHead">Begriffserklärung</item>
-  <item id="introText">Einige Begriffe der Umfrage haben wir für Ihr besseres Verständnis erklärt.{br}{br}
+<item id="introHead">Begriffserklärung</item>
 	{b}Außenschutz{/b} = Ein Außenschutz wird durch Zölle und Exportsubventionen erreicht.{br}{br}
 	{b}Ausstiegsoptionen{/b} = Förderung der Betriebsaufgabe, Verpachtung oder Ähnlichem.{br}{br}
 	{b}Direktzahlungen{/b} = Dies sind Einkommensbeihilfen, die ein Landwirt pro Hektar und Jahr erhält.{br}{br}
