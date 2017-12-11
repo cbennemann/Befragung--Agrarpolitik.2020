@@ -64,11 +64,11 @@
  <!-- Glossar (leave blank to skip popup) -->
   <item id="introHead">Begriffserklärung</item>
   <item id="introText">
-	{b}Außenschutz{/b} = Ein Außenschutz wird durch Zölle und Exportsubventionen erreicht.{br}{br}
-	{b}Ausstiegsoptionen{/b} = Förderung der Betriebsaufgabe, Verpachtung oder Ähnlichem.{br}{br}
-	{b}Direktzahlungen{/b} = Dies sind Einkommensbeihilfen, die ein Landwirt pro Hektar und Jahr erhält.{br}{br}
-	{b}Erzeugerorganisationen{/b} = Genossenschaften und Branchenverbände wie z.B. Milchindustrieverband
-	{b}Exportfixierung{/b} = Konzentration von Produktion und Handel für den Weltmarkt.{br}{br}
+	{b}Außenschutz{/b} = Ein Außenschutz wird durch Zölle und Exportsubventionen erreicht.{br}
+	{b}Ausstiegsoptionen{/b} = Förderung der Betriebsaufgabe, Verpachtung oder Ähnlichem.{br}
+	{b}Direktzahlungen{/b} = Dies sind Einkommensbeihilfen, die ein Landwirt pro Hektar und Jahr erhält.{br}
+	{b}Erzeugerorganisationen{/b} = Genossenschaften und Branchenverbände wie z.B. Milchindustrieverband{br}
+	{b}Exportfixierung{/b} = Konzentration von Produktion und Handel für den Weltmarkt.{br}
 	{b}GAP{/b} = Gemeinsame Agrarpolitik der EU{br}{br}
 	{b}Innovationsförderung{/b} = Es werden innovative Ideen, Projekte und Investitionen gefördert.{br}{br}
 	{b}Investitionsförderung{/b} = Landwirte erhalten auf Antrag staatliche Zuschüsse zum Bau von neuen Ställen.{br}{br}
