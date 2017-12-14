@@ -1,6 +1,6 @@
 var shortId = require('..');
 
-//Generate 10 ids
+'a';'b'
 
 var i = 10;
 while (i--) {
