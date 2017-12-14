@@ -12,7 +12,7 @@
 //
 -->
 
-<config version="1.0" htmlParse="false">
+<config version="1.0" htmlParse="true">
     
 
   <!-- title of the study -->
