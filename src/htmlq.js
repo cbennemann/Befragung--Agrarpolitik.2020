@@ -135,7 +135,8 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
                 'userCodeParam': ['$stateParams', function ($stateParams) {
                     return $stateParams.userCode;
                 }]
-            },next: 'root.login',
+            },
+	    next: 'root.login',
             warnOnClose: false
         })
       .state('root.login', {
@@ -453,10 +454,6 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
 .controller('MessageCtrl', ['message', 'messageHead', 'MessageModal', 'UserCode', 'userCodeParam', 'language', 'config', '$scope', '$state', function (message, messageHead, MessageModal, UserCode, userCodeParam, language, config, $scope, $state) {
     var modal = MessageModal.show(messageHead, message, config.textAlign, language.btnContinue);
 
-	if (userCodeParam && userCodeParam.length > 0) {
-        UserCode.userCode = userCodeParam;
-    }
-	
     modal.result.then(function () {
         $state.go($state.current.next);
     });
