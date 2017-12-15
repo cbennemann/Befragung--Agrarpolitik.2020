@@ -137,7 +137,13 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
                 }]
             },
         })
-     
+      .state('root.login', {
+            url: '/login',
+            templateUrl: 'templates/login.html',
+            controller: 'LoginCtrl',
+            next: 'root.introduction',
+            warnOnClose: false
+        })
         .state('root.introduction', {
             url: '/introduction',
             templateUrl: 'templates/empty.html',
