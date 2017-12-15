@@ -443,9 +443,13 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
     };
 }])
 
-.controller('MessageCtrl', ['message', 'messageHead', 'MessageModal', 'language', 'config', '$scope', '$state', function (message, messageHead, MessageModal, language, config, $scope, $state) {
+.controller('MessageCtrl', ['message', 'messageHead', 'MessageModal', 'UserCode', 'userCodeParam', 'language', 'config', '$scope', '$state', function (message, messageHead, MessageModal, UserCode, userCodeParam, language, config, $scope, $state) {
     var modal = MessageModal.show(messageHead, message, config.textAlign, language.btnContinue);
 
+	if (userCodeParam && userCodeParam.length > 0) {
+        UserCode.userCode = userCodeParam;
+    }
+	
     modal.result.then(function () {
         $state.go($state.current.next);
     });
