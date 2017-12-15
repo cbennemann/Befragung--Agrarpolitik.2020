@@ -59,6 +59,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
             template: '<div class="container"><div class="row" style="margin-top: 35px;"><div class="col-xs-8 col-xs-offset-2 alert alert-danger"><p>An error occured while opening your survey. If you tried to open index.html via the file:// protocol, please use Firefox or another browser that allows XML HTTP Requests to local files.</p></div></div></div>'
         })
         .state('root', {
+	     url: '/?userCode',
             'abstract': true,
             controller: 'RootCtrl',
             templateUrl: 'templates/root.html',
