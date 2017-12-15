@@ -136,8 +136,6 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
                     return $stateParams.userCode;
                 }]
             },
-            next: 'root.login',
-            warnOnClose: false
         })
      
         .state('root.introduction', {
