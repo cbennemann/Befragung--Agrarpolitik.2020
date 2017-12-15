@@ -451,7 +451,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
     };
 }])
 
-.controller('MessageCtrl', ['message', 'messageHead', 'MessageModal', 'UserCode', 'userCodeParam', 'language', 'config', '$scope', '$state', function (message, messageHead, MessageModal, UserCode, userCodeParam, language, config, $scope, $state) {
+.controller('MessageCtrl', ['message', 'messageHead', 'MessageModal', 'language', 'config', '$scope', '$state', function (message, messageHead, MessageModal,  language, config, $scope, $state) {
     var modal = MessageModal.show(messageHead, message, config.textAlign, language.btnContinue);
 
     modal.result.then(function () {
