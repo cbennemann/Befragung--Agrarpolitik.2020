@@ -123,7 +123,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
         })
         .state('root.welcome', {
             url: '/?userCode',
-            templateUrl: 'templates/empty.html',
+            templateUrl: 'templates/?userCode.html',
             controller: 'WelcomeCtrl',
             resolve: {
                 messageHead: ['language', function (language) {
@@ -142,7 +142,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
      
         .state('root.introduction', {
             url: '/introduction',
-            templateUrl: 'templates/empty.html',
+            templateUrl: 'templates/?userCode.html',
             controller: 'MessageCtrl',
             resolve: {
                 messageHead: ['language', function (language) {
