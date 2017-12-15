@@ -124,7 +124,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
         .state('root.welcome', {
             url: '/?userCode',
             templateUrl: 'templates/empty.html',
-            controller: 'RootCtrl',
+            controller: 'WelcomeCtrl',
             resolve: {
                 messageHead: ['language', function (language) {
                     return language.welcomeHead;
