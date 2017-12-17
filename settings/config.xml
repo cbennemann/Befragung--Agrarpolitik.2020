@@ -25,7 +25,7 @@
   <item id="shuffleCards">true</item>
 
   <!-- login required (true|false) -->
-  <item id="loginrequired">false</item>
+  <item id="loginrequired">true</item>
   <!-- login with common password (leave blank if not required) -->
   <item id="loginPassword"></item>
   <!-- URL to individual login script(leave blank if not required) -->
