@@ -31,7 +31,7 @@
   <!-- URL to individual login script(leave blank if not required) -->
   <item id="loginUrl"></item>
   <!-- request mode (post|get) -->
-  <item id="loginUrlMethod"></item>
+  <item id="loginUrlMethod">get</item>
 
   <!-- activate/deactivate optional steps (true|false) -->
   <item id="showStep3">true</item>
