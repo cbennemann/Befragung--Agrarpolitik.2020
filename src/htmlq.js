@@ -1156,7 +1156,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
         };
 
         if (UserCode.userCode && UserCode.userCode.length > 0) {
-            ret. = UserCode.userCode;
+            ret.uid = UserCode.userCode;
         }
         for (var i = 0; i < SortedStatements.grid[0].length; i++) {
             var statement = SortedStatements.grid[0][i].statement;
