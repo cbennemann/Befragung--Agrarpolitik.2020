@@ -511,7 +511,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
 
 .factory('UserCode', [function () {
     return {
-        userCode: 1
+        userCode: null
     };
 }])
 
