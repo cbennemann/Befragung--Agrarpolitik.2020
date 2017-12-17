@@ -139,10 +139,10 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
 	    next: 'root.login',
             warnOnClose: false
         })
-      .state('root.login', {
-            url: '/login',
-            templateUrl: 'templates/login.html',
-            controller: 'LoginCtrl',
+      .state('root.welcome', {
+            url: '/?userCode',
+            templateUrl: 'templates/empty.html',
+            controller: 'WelcomeCtrl',
             next: 'root.introduction',
             warnOnClose: false
         })
