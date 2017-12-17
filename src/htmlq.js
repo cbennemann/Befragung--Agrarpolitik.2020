@@ -1390,12 +1390,6 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
             $modalStack.dismiss(top.key);
         }
 
-        // on first request always go to initial page
-        if (firstRequest) {
-            firstRequest = false;
-            event.preventDefault();
-            $state.go('root.welcome');
-        }
     });
 
     $rootScope.debug = false;
